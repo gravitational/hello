@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/codegangsta/cli"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/codegangsta/cli"
 )
 
 func newGreetingCommand(c *Command) cli.Command {

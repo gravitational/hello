@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
 	"github.com/gravitational/hello/backend/test"
 
-	. "gopkg.in/check.v1"
+	. "github.com/gravitational/hello/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestEtcd(t *testing.T) { TestingT(t) }

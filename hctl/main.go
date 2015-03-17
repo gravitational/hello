@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/mailgun/log"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log"
 	"github.com/gravitational/hello/hctl/command"
 )
 

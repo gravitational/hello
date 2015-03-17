@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/gravitational/hello"
-	"github.com/codegangsta/cli"
-	"github.com/mailgun/log"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log"
 	"github.com/gravitational/hello/api"
 	"github.com/gravitational/hello/backend"
 	"github.com/gravitational/hello/backend/etcdbk"

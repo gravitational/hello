@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	"github.com/gravitational/hello"
-	"github.com/gravitational/form"
-	"github.com/julienschmidt/httprouter" // APIServer is a http.Handler server requests to Helo server
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/gravitational/form"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/julienschmidt/httprouter" // APIServer is a http.Handler server requests to Helo server
 	"github.com/gravitational/hello/backend"
 )
 

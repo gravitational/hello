@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/buger/goterm"
-	"github.com/codegangsta/cli"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/buger/goterm"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/codegangsta/cli"
 	"github.com/gravitational/hello/api"
 	"strings"
 )

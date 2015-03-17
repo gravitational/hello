@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
 	"github.com/gravitational/hello/backend"
 )
 

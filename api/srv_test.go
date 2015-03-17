@@ -8,7 +8,7 @@ import (
 	"github.com/gravitational/hello/backend"
 	"github.com/gravitational/hello/backend/membk"
 
-	. "gopkg.in/check.v1"
+	. "github.com/gravitational/hello/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestAPI(t *testing.T) { TestingT(t) }

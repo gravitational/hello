@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/gravitational/roundtrip" // Client is an HTTP RPC client to the running Hello server
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/gravitational/roundtrip" // Client is an HTTP RPC client to the running Hello server
 	"github.com/gravitational/hello/backend"
 )
 

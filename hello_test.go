@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/log"
-	. "gopkg.in/check.v1"
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log"
+	. "github.com/gravitational/hello/Godeps/_workspace/src/gopkg.in/check.v1"
 	"github.com/gravitational/hello/backend/membk"
 )
 

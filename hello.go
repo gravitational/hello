@@ -26,7 +26,7 @@ package hello
 import (
 	"fmt"
 
-	"github.com/mailgun/log" // Helloer interface represents "Hello, world!" functionality providers.
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log" // Helloer interface represents "Hello, world!" functionality providers.
 	"github.com/gravitational/hello/backend"
 )
 
