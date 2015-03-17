@@ -56,7 +56,7 @@ func (h *helloer) Hello(prompt, username string) (string, error) {
 	log.Infof("Hello(%v, %v)", prompt, username)
 	greeting, err := h.b.GetGreeting(prompt)
 	if err != nil {
-		panic(err
+		panic(err)
 	}
 	if username == "" {
 		// try do be specific when returning errors, it makes
