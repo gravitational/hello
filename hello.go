@@ -32,7 +32,7 @@ import (
 
 type Helloer interface {
 	// Hello generates and returns "Hello, <username>!" message when called
-	// with a string parameter.
+	// with a string parameter
 	Hello(prompt, username string) (string, error)
 	// Close deallocates any resources that were allocated by instance of helloer
 	Close() error
@@ -56,7 +56,7 @@ func (h *helloer) Hello(prompt, username string) (string, error) {
 	log.Infof("Hello(%v, %v)", prompt, username)
 	greeting, err := h.b.GetGreeting(prompt)
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("error when retrieving backend: %v", err)
 	}
 	if username == "" {
 		// try do be specific when returning errors, it makes
