@@ -6,9 +6,13 @@ Functionally it provides CLI, service and a library with a wrapper to output `He
 
 Current version: `0.0.1-alpha.1`
 
-* [Quickstart](/doc/quickstart.md)
-* [User manual](/doc/manual.md)
-* [Developers guide](/doc/dev.md)
-* [API reference](/doc/api.md)
-* [CLI reference](/doc/cli.md)
+Guides on writing software at Gravitational:
+
+* [Developers guide](/docs/dev.md)
+
+Guide on writing documentation:
+
+* [Quickstart](/docs/quickstart.md)
+* [User manual](/docs/manual.md)
+
 
