@@ -1,0 +1,9 @@
+site_name: Hello Docs
+pages:
+- [index.md, Home]
+- [quickstart.md, Quickstart]
+- [manual.md, User Manual]
+- [dev.md, Developers Guide]
+theme: readthedocs
+site_dir: docs/site
+dev_addr: '127.0.0.1:32567'
