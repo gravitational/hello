@@ -5,5 +5,4 @@ pages:
 - [manual.md, User Manual]
 - [dev.md, Developers Guide]
 theme: readthedocs
-site_dir: docs/site
 dev_addr: '127.0.0.1:32567'
