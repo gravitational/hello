@@ -8,7 +8,7 @@ Current version: `0.0.1-alpha.1`
 
 Guides on writing software at Gravitational:
 
-* [Developers guide](https://github.com/gravitational/hello/blob/master/docs/dev.md)
+* [Developers guide](https://github.com/gravitational/wiki/blob/master/docs/dev/org/devprocess.md)
 
 Guide on writing documentation:
 
