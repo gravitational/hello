@@ -10,9 +10,15 @@ Guides on writing software at Gravitational:
 
 * [Developers guide](https://github.com/gravitational/wiki/blob/master/docs/dev/org/devprocess.md)
 
-Guide on writing documentation:
+# On writing documentation:
 
-* [Quickstart](/docs/quickstart.md)
-* [User manual](/docs/manual.md)
+Lets aim for consistency here and every Gravitational project must:
 
-
+- Execute `--help` when launched without parameters.
+- Have `README.md` in its root directory with the User Manual containing the following sections:
+  - Intro and Purpose
+  - Building or Installing
+  - Usage
+- Have `docs` directory with additional docs, referred from `README.md`, for example:
+  - `design.md` - developer design
+  - `contribute.md` - instructions for other contributors 
