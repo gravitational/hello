@@ -1,10 +1,11 @@
 # Hello
 
-Hello is an example project that demonstrates the development flow and common setup for projects released by Gravitational Inc.
+This is a tiny web app skeleton which shows the basic project structure and development workflow we use.
+Features are few:
 
-Functionally it provides CLI, service and a library with a wrapper to output `Hello, gravity!` when called.
-
-Current version: `0.0.1-alpha.1`
+* CLI 
+* web service 
+* library shared by the two
 
 Guides on writing software at Gravitational:
 
