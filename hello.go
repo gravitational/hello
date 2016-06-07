@@ -13,11 +13,9 @@
 //      "fmt"
 //
 //      "github.com/gravitational/hello"
-//      "github.com/gravitational/hello"
 //  )
 //
 //  func main() {
-//     b :=
 //     h := hello.New()
 //     fmt.Prinln(h.Hello())
 //  }
@@ -26,7 +24,8 @@ package hello
 import (
 	"fmt"
 
-	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log" // Helloer interface represents "Hello, world!" functionality providers.
+	// Helloer interface represents "Hello, world!" functionality providers.
+	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log"
 	"github.com/gravitational/hello/backend"
 )
 
