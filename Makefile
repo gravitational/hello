@@ -73,11 +73,11 @@ sloccount:
 # In case if your test has any extenral dependencies, e.g. etcd
 # you can specify various variables required to connect to these
 # deps using Makefile environment variables.
-ETCD_NODE1 := http://127.0.0.1:4001
-ETCD_NODE2 := http://127.0.0.1:4002
-ETCD_NODE3 := http://127.0.0.1:4003
-ETCD_NODES := ${ETCD_NODE1},${ETCD_NODE2},${ETCD_NODE3}
-ETCD_FLAGS := TEST_ETCD_NODES=${ETCD_NODES}
+ETCD_NODE1 ?= http://127.0.0.1:4001
+ETCD_NODE2 ?= http://127.0.0.1:4002
+ETCD_NODE3 ?= http://127.0.0.1:4003
+ETCD_NODES ?= "${ETCD_NODE1}","${ETCD_NODE2}","${ETCD_NODE3}"
+ETCD_FLAGS ?= TEST_ETCD_NODES=${ETCD_NODES}
 
 # test-with-deps test executes tests that rely on external deps, such as Etcd. 
 # It singals test suites that Etcd is available by setting ETCD_FLAGS variable
@@ -108,14 +108,14 @@ run: install
           -log=console\
           -logSeverity=INFO\
           -backend=etcd\
-          -backendConfig='{"nodes": ["${ETCD_NODE1}","${ETCD_NODE2}","${ETCD_NODE3}"], "key": "/teleport"}'
+          -backendConfig='{"nodes": [${ETCD_NODES}], "key": "/hello"}'
 
-# docs-serve starts hosting a local version of the documentation
+# docs starts hosting a local version of the documentation
 # it requires mkdocs to be installed, luckilly  it is as easy as
 # running:
 # 
 #   pip install mkdocs
 #
-docs-serve:
-	sleep 1 && sensible-browser http://127.0.0.1:32567 &
+doc:
+	sleep 1 && sensible-browser http://127.0.0.1:32567 || open http://127.0.0.1:32567 &
 	mkdocs serve

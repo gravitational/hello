@@ -145,5 +145,5 @@ Here are the flags for running a hello server binary:
 # etcd configuration server list and key
 -backendConfig='{
    "nodes": ["http://localhost:4001"], 
-   "key": "/teleport"}'
+   "key": "/hello"}'
 ```
