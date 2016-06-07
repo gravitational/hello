@@ -9,7 +9,7 @@ Features are few:
 
 Guides on writing software at Gravitational:
 
-* [Developers guide](https://github.com/gravitational/wiki/blob/master/docs/dev/org/devprocess.md)
+* [Developers guide](https://github.com/gravitational/wiki/blob/master/docs/engineering.md#development)
 
 # On writing documentation:
 
