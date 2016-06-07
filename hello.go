@@ -24,11 +24,11 @@ package hello
 import (
 	"fmt"
 
-	// Helloer interface represents "Hello, world!" functionality providers.
 	"github.com/gravitational/hello/Godeps/_workspace/src/github.com/mailgun/log"
 	"github.com/gravitational/hello/backend"
 )
 
+// Helloer interface represents "Hello, world!" functionality providers.
 type Helloer interface {
 	// Hello generates and returns "Hello, <username>!" message when called
 	// with a string parameter.
